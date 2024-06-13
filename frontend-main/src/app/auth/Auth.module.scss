@@ -1,0 +1,23 @@
+.auth {
+  .auth_logo {
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 100px;
+    }
+  }
+  .auth__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 70px;
+    @media (max-width: 768px) {
+      padding: 0px 20px;
+    }
+    .form__buttons_group {
+      display: flex;
+      gap: 15px;
+    }
+  }
+}
